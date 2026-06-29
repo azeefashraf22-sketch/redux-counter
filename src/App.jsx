@@ -146,10 +146,10 @@ const App = () => {
         <div className="btn-group">
           <div className="action-row">
             <button className="btn btn-dec" onClick={() => dispatch(decrement())}>
-              Decrease
+              Decrement
             </button>
             <button className="btn btn-inc" onClick={() => dispatch(increment())}>
-              Increase
+              Increment
             </button>
           </div>
 
